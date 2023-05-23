@@ -1,3 +1,4 @@
+using DevFreela.Payments.API.Consumers;
 using DevFreela.Payments.API.Services.Implementations;
 using DevFreela.Payments.API.Services.Interfaces;
 
@@ -10,6 +11,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//Di
+builder.Services.AddScoped<IPaymentService, PaymentService>();
+builder.Services.AddScoped<ProcessPaymentConsumer>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -18,9 +23,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-//Di
-builder.Services.AddScoped<IPaymentService, PaymentService>();
 
 app.UseHttpsRedirection();
 
