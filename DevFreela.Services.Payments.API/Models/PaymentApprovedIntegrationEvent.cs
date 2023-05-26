@@ -1,4 +1,4 @@
-namespace DevFreela.Payments.API.Models;
+namespace DevFreela.Services.Payments.API.Models;
 
 public class PaymentApprovedIntegrationEvent
 {

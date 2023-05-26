@@ -1,11 +1,11 @@
 using System.Text;
 using System.Text.Json;
-using DevFreela.Payments.API.Models;
-using DevFreela.Payments.API.Services.Interfaces;
+using DevFreela.Services.Payments.API.Models;
+using DevFreela.Services.Payments.API.Services.Interfaces;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
-namespace DevFreela.Payments.API.Consumers;
+namespace DevFreela.Services.Payments.API.Consumers;
 
 public class ProcessPaymentConsumer : BackgroundService
 {

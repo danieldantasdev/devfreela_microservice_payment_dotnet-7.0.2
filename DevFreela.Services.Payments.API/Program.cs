@@ -1,6 +1,6 @@
-using DevFreela.Payments.API.Consumers;
-using DevFreela.Payments.API.Services.Implementations;
-using DevFreela.Payments.API.Services.Interfaces;
+using DevFreela.Services.Payments.API.Consumers;
+using DevFreela.Services.Payments.API.Services.Implementations;
+using DevFreela.Services.Payments.API.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 

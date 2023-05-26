@@ -1,8 +1,8 @@
-using DevFreela.Payments.API.Models;
-using DevFreela.Payments.API.Services.Interfaces;
+using DevFreela.Services.Payments.API.Models;
+using DevFreela.Services.Payments.API.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DevFreela.Payments.API.Controllers;
+namespace DevFreela.Services.Payments.API.Controllers;
 
 [Route("api/payments")]
 public class PaymentController : ControllerBase

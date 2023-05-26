@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFreela.Payments.API", "DevFreela.Payments.API\DevFreela.Payments.API.csproj", "{0EA20C8F-5284-43BA-86DA-C02FC688B55F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFreela.Services.Payments.API", "DevFreela.Services.Payments.API\DevFreela.Services.Payments.API.csproj", "{0EA20C8F-5284-43BA-86DA-C02FC688B55F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
